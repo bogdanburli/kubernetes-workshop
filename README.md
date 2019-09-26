@@ -94,7 +94,7 @@ curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"
 
 ```bash
 $ kubectl -n kube-system logs deployment/fluxcloud -f
-[{#flux-notifications *}]
+[{#burli *}]
 Using Slack exporter
 ```
 
