@@ -29,7 +29,7 @@ spec:
       config:
         global:
           resolve_timeout: 5m
-          slack_api_url: 'https://hooks.slack.com/services/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'
+          slack_api_url: 'https://hooks.slack.com/services/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'
         route:
           group_wait: 10s
           group_interval: 5m
@@ -95,12 +95,12 @@ spec:
     ## Component scraping etcd
     ##
     kubeEtcd:
-      enabled: false
+      enabled: true
 
     ## Component scraping kube scheduler
     ##
     kubeScheduler:
-      enabled: false
+      enabled: true
 
     ## Component scraping kube proxy
     ##
@@ -110,7 +110,7 @@ spec:
     ## Component scraping kube state metrics
     ##
     kubeStateMetrics:
-      enabled: false
+      enabled: true
 
     ## Component scraping the kubelet and kubelet-hosted cAdvisor
     ##
@@ -120,7 +120,7 @@ spec:
     ## Component scraping the kube controller manager
     ##
     kubeControllerManager:
-      enabled: false
+      enabled: true
 
     ## Component scraping coreDns. Use either this or kubeDns
     ##
