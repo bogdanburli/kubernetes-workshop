@@ -39,9 +39,9 @@ spec:
         - containerPort: 3032
         env:
         - name: SLACK_URL
-          value: "https://hooks.slack.com/services/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"
+          value: "https://hooks.slack.com/services/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"
         - name: SLACK_CHANNEL
-          value: "#flux-notifications"
+          value: "#burli"
         # Or configure multiple channels
         # (comma separated <channel>=<namespace>) string:
         #  value: "#kubernetes=*,#team=team"
@@ -56,6 +56,6 @@ spec:
         - name: SLACK_ICON_EMOJI
           value: ":heart:"
         - name: GITHUB_URL
-          value: "https://github.com/AndriiOmelianenko/kubernetes-workshop/"
+          value: "https://github.com/bogdanburli/kubernetes-workshop/"
         - name: LISTEN_ADDRESS
           value: ":3032"

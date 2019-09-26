@@ -57,7 +57,7 @@ kubectl apply -f https://raw.githubusercontent.com/fluxcd/flux/helm-0.10.1/deplo
 ```
 
 ```bash
-helm upgrade --install flux --namespace kube-system -f examples/flux-initial-values.yaml --version 0.14.1 fluxcd/flux
+helm upgrade --install flux --namespace kube-system -f emkworkshop/examples/flux-initial-values.yaml --version 0.14.1 fluxcd/flux
 ```
 
 ```bash
@@ -83,7 +83,7 @@ kubectl -n kube-system logs deployment/flux -f
 5. Test that notification goes in manually.
 
 ```bash
-curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
+curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"}' https://hooks.slack.com/services/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
 ```
 
 ## fluxcloud
