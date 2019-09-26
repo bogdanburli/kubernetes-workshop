@@ -115,7 +115,7 @@ spec:
     ## Component scraping the kubelet and kubelet-hosted cAdvisor
     ##
     kubelet:
-      enabled: false
+      enabled: true
 
     ## Component scraping the kube controller manager
     ##
