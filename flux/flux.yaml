@@ -50,4 +50,4 @@ spec:
 
     # For https://github.com/justinbarrick/fluxcloud/
     additionalArgs:
-    - connect=ws://fluxcloud
+    - --connect=ws://fluxcloud
